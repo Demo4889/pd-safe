@@ -75,7 +75,7 @@ function RunMiniGame()
 			return false
 		end
 
-		if IsControlJustPressed(0,32) then
+		if IsControlJustPressed(0,38) then
 			if _onSpot then
 				ReleaseCurrentPin()
 				_onSpot = false
